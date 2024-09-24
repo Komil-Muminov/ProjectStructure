@@ -1,0 +1,36 @@
+/* Content */
+
+/* IMG */
+.restaurant__img {
+	max-width: 400px;
+	width: 100%;
+	min-height: 300px;
+	height: 100%;
+	border-radius: 10px;
+}
+
+/* Links */
+.restaurant_links {
+	display: block;
+	text-decoration: none;
+	color: rgba(252, 178, 39, 0.878);
+}
+
+.restaurant_links:hover {
+	color: rgb(255, 168, 5);
+}
+
+/* Name && raiting */
+.restaurant_name {
+	font-weight: 600;
+}
+
+.restaurant_raiting {
+	max-width: 15px;
+	width: 100%;
+}
+
+.rate_active path {
+	fill: rgb(255, 166, 24);
+	stroke: rgb(255, 166, 24);
+}

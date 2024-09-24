@@ -1,0 +1,30 @@
+.btn__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	height: 100%;
+}
+
+.btn {
+	align-self: center;
+	padding: 20px 40px 20px 40px;
+	font-size: 20px;
+	font-weight: 600;
+	border: none;
+	background-color: rgb(254, 147, 147);
+	border-radius: 10px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover:not(:focus-visible) {
+	background-color: rgb(254, 107, 107);
+}
+
+.btn:focus:not(:focus-visible) {
+	background-color: rgb(144, 255, 158);
+}
+
+.btn:active:not(:focus-visible) {
+	background-color: rgba(118, 253, 136, 0.713);
+}
